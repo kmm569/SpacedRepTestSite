@@ -1,0 +1,36 @@
+:root {
+    /* caldendar values */
+    --cal-weekday-color: #4CB1E1;
+    --cal-day-color: #dddde6;
+    --cal-monthtxt-color: white;
+    --cal-date-color: #777;
+    /* page values */
+    --title-color: #5caace;
+    --top-bar-color: #00527D;
+    /*--font-color: #2f2f97;*/
+    --font-color: var(--top-bar-color);
+    --link-color: #9ac6d9;
+    --disabled-background: #5E5E5E;
+    --hover-text: #FAFAFF;
+    --calculated-hover: #bf9739;
+    --page-background: #FAFAFF;
+    --error-msg: darkred;
+}
+
+.item:hover {
+    background-color: var(--calculated-hover)!important;
+    color: var(--font-color)!important;
+}
+
+#placeholderDate {
+    color: var(--cal-day-color);
+}
+
+#themeChoice {
+    background-color: var(--title-color);
+    color: var(--font-color);
+}
+
+#themeChoice:hover {
+    background-color: var(--calculated-hover);
+}
