@@ -1,0 +1,18 @@
+:root {
+    /* caldendar values */
+    --cal-weekday-color: #8DA6C0;
+    --cal-day-color: #EEF4F4;
+    --cal-monthtxt-color: white;
+    --cal-date-color: #777;
+    /* page values */
+    --title-color: #8DA6C0;
+    --top-bar-color: #165384;
+    /*--font-color: #7799BB;*/
+    --font-color: var(--top-bar-color);
+    --link-color: #D7E4F0;
+    --disabled-background: #5E5E5E;
+    --hover-text: #000;
+    --calculated-hover: #022847;
+    --page-background: #011627;
+    --error-msg: darkred;
+}

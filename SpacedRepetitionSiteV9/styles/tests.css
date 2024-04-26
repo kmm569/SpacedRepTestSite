@@ -1,0 +1,60 @@
+.full-window {
+    /* background-color: gray; */
+    width: 75%;
+    height: 60%;
+    margin: 0 auto;
+}
+
+.tab-bar {
+    height: fit-content;
+    /* position: relative; */
+    /* background-color: antiquewhite; */
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    /* flex-direction: row; */
+    /* padding: 10px; */
+    z-index: 1;
+    margin: 0 auto;
+    padding: 0;
+    width: 75%;
+}
+
+.tab-bar .tab {
+    display: inline-block;
+    width: 75px;
+    padding: 5px;
+    height: 25px;
+    /* float: left; */
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 0 0 0;
+    position: relative;
+    z-index: 1;
+    font-size: 14px;
+}
+
+.active {
+    position: relative;
+    /* background-color: lightpink!important; */
+    /* transform: scale(1.25); */
+    z-index: 99!important;
+}
+
+.window {
+    z-index: 99;
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+    min-height: 35vh;
+    border-radius: 10px;
+    background-color: var(--title-color);
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+}
+
+#tabs {
+    font-size: 16px;
+}
